@@ -8,8 +8,8 @@ if not os.path.exists('./npydata'):
 
 try:
 
-    shanghaiAtrain_path='/home/dkliang/projects/synchronous/ShanghaiTech/part_A_final/train_data/images/'
-    shanghaiAtest_path='/home/dkliang/projects/synchronous/ShanghaiTech/part_A_final/test_data/images/'
+    shanghaiAtrain_path='../input/Shanghaitech/ShanghaiTech/part_A/train_data/images/'
+    shanghaiAtest_path='../input/Shanghaitech/ShanghaiTech/part_A/test_data/images/'
 
     train_list = []
     for filename in os.listdir(shanghaiAtrain_path):
